@@ -1,0 +1,170 @@
+.itinerary-detail {
+  padding: 2rem 0;
+}
+
+.itinerary-header-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.itinerary-header-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+}
+
+.header-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.destination {
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+.dates {
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.generate-button {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.generate-button:hover {
+  transform: translateY(-2px);
+}
+
+.weather-section,
+.activities-section,
+.accommodations-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.weather-section h2,
+.activities-section h2,
+.accommodations-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
+}
+
+.weather-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.weather-card {
+  text-align: center;
+  padding: 1rem;
+  background: #f0f9ff;
+  border-radius: 8px;
+}
+
+.weather-date {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.weather-temp {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 0.25rem;
+}
+
+.weather-desc {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-transform: capitalize;
+}
+
+.activities-list,
+.accommodations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-card,
+.accommodation-card {
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.activity-time {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.activity-cost {
+  color: #059669;
+  font-weight: 600;
+}
+
+.activity-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+}
+
+.activity-card p {
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.activity-location {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.accommodation-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #1a202c;
+}
+
+.accommodation-dates {
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.accommodation-cost {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #059669;
+}
+
+@media (max-width: 768px) {
+  .weather-cards {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
